@@ -1,0 +1,159 @@
+body{
+    background: rgb(0, 0, 0);
+    font-family: 'poppins', sans-serif;
+    height: 950px;
+}
+.gmain{
+    width: 100%;
+    height: 900px;
+    background: rgb(0, 0, 0);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cont{
+    display: flex;
+    padding-top: 1rem;
+}
+.gmimg{
+    width: 71.8%;
+    height: 860px;
+    background-image: linear-gradient(to left,rgb(33, 3, 116), rgb(177, 8, 8));
+    
+}
+.gifrimg{
+    
+    width: 100%;
+}
+.gifrimg img{
+    padding-top: 5px;
+    padding-left: 4.5px;
+    width: 84em;
+    height: 53em;
+}
+.panout{
+    padding-left: 50px;
+    width: 25%;
+    
+    padding-right: 10px;
+    
+}
+.pannel{
+
+    height: 855px;
+    text-align: center;
+    border: 5px;
+    /*border-color: rgb(33, 3, 116);*/
+    border-style: solid;
+    background-color:rgb(32, 2, 2);
+}
+.box{
+    
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 209px;
+}
+.box p{
+    padding-top: 20px;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.hnt{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 450px;
+    padding-bottom: 10px;
+    border: 2px;
+    border-style: dotted;
+}
+/*
+.htbt button{
+    width: 55%;
+    height: 3rem;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.htbt button a{
+    text-decoration: none;
+    color: rgb(32, 2, 2);
+    font-weight: bolder;
+    font-size: 1.2rem;
+} */
+.htbt button{
+    width: 55%;
+    height: 3rem;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.htbt button h2{
+    text-decoration: none;
+    color: rgb(32, 2, 2);
+    font-weight: 100px;
+    font-size: 1rem;
+    padding-bottom: 4px;
+}
+.hntbx{
+    width: 53%;
+    padding-left: 6.5rem;
+}
+.hntbx p{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    font-size: 1.2rem;
+}
+
+.hnt input[type="text"]{
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 14px;
+}
+.hnt input[type="submit"]{
+    
+    width: 20%;
+    height: 2rem;
+    border-radius: 10px;
+}
+#tsk{
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(to left,rgb(33, 3, 116), rgb(177, 8, 8));
+}
+#tsk a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btns{
+    /*border: #fff;
+    border-style: dotted; */
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 120px;
+    
+}
+.prpg{
+    padding-bottom: 10px;
+}
+.btns button{
+    width: 60%;
+    height: 3rem;
+    border-radius: 14px;
+}
+
+.btns button a{
+    text-decoration: none;
+    color: rgb(32, 2, 2);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+#tsk2{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(to left,rgb(33, 3, 116), rgb(177, 8, 8));
+}

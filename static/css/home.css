@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding-left: 300;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+img:hover{
+   cursor: pointer; 
+}

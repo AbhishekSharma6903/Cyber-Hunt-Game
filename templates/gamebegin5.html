@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shoulder surfing</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/gamesb.css') }}">
+    </head>
+    <body>
+        <div class="body">
+        <div class="gmain">
+           
+            <div class="cont">
+                <div class="gmimg">
+                    <div class="gifrimg">
+                        <img src="{{url_for('static',filename='images/flag.jpeg')}}">
+                    </div>
+                </div>
+                <div class="panout">
+                <div class="pannel">
+                    <div class="box">
+                        <button type="button" id="tsk" name="tsk"> <a href="">TASK</a></button>
+                        <p style="color: white;">Find the flag and submit <br> to help jacob<br> </p>
+                       
+                    </div>
+                    
+                    
+                    <div class="hnt" id="hnt">
+                        <form method="POST">
+                        <input type="text" name="flag" id="flag" required placeholder="                 ENTER HERE">
+                        <br>
+                        <br>
+                        <input type="submit">
+                       </form>
+                       <br>
+                        <br>
+                       <div class="htbt">
+                           <button type="button" id="ht" onclick="openhint()"><h2>HINT</h2></button>
+                           </div>
+                   </div>
+                    <div class="btns">
+                        <div class="prpg">
+                        <button type="button" id="ppg"> <a href="{">NEXT</a></button>
+                        </div>
+                        <div class="nxpg">
+                        <button type="button" id="npg"> <a href="{{url_for('gamebegin4')}}">PREV</a></button>
+                        </div>
+                    </div>
+                    <div class="foot">
+                        <button type="button" id="tsk2" name="tsk2"> <a href=""></a></button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <script src="{{url_for('static',filename='js/hint.js') }}"></script>
+    </body>
+</html>

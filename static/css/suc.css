@@ -1,0 +1,49 @@
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(33, 3, 116), rgb(177, 8, 8)) ;
+    
+    text-align: center;
+    color: yellow; 
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'oswald','sans-serif';
+    font-size: 100px;
+    color: rgb(232, 34, 107);
+    font-weight: 900;
+    
+}
+
+p{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Fira Sans','sans-serif';
+}
+
+
+button{
+    width: 150px;
+    height: 60px;
+    border-radius: 30%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(232, 34, 107);
+    border-style: hidden;
+}
+input[type=submit]{
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-top: 10vh;
+    font-size: 30px;
+    font-weight: bolder;
+}

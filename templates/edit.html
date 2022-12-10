@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <link href="{{url_for('static',filename='css/login.css')}}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <img src="{{url_for('static',filename='images/cyber.jpg')}}" height="700px" width="40%"
+            </div>
+            <div class="column">
+            <div class="wrapper">
+                <header>Edit </header>
+            <br>
+        <form action="{{ url_for('edit') }}" method="post">
+            {% if mesage is defined and mesage %}
+                <div class="alert alert-warning">{{ mesage }}</div>
+            {% endif %}
+            <div class="input">
+                <label for="name">Name:</label>
+                <input type="text" class="input" id="name" name="name" value="{{ editUser.name }}">
+            </div>
+            <div class="input">
+                <label for="role">Role:</label>
+                <select class="input" id="role" name="role">
+                    <option value="admin" {% if editUser.role == 'admin' %}selected{% endif %}>Admin</option>
+                    <option value="user"  {% if editUser.role == 'user' %}selected{% endif %}>User</option>			
+                </select>
+            </div>
+            <div class="input">
+                <label for="country">Country:</label>
+                <input type="text" class="input" id="country" name="country" value="{{ editUser.country }}">
+            </div>
+                
+            <input type="hidden" id="userid" name="userid" value="{{ editUser.userid }}">
+            <button type="submit" class="button">Save</button>		
+        </form>
+    </div>
+</div>
+    </body>
