@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+    .c_image{
+        padding-left: 90px;
+        padding-top: 10px;
+    }
+	.wrapper{
+	margin: 130px auto;
+	max-width:  500px;
+	width: 100%;
+	background: rgba(244, 162, 162, 0.59);
+	border-radius: 17px;
+	padding:  25px;
+	
+}
+.wrapper header{
+	font-family:Forte;
+	font-size: 60px;
+	font-weight: 400px;
+    text-align: center;
+}
+input[type=text], select {
+  
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(146, 145, 145);
+	border-radius: 10px;
+	box-sizing: border-box;
+  }
+input[type=password], select {
+	
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(146, 145, 145) ;
+	border-radius: 10px;
+	box-sizing: border-box;
+  }
+label {
+	display: inline-block;
+	width: 120px;
+  }
+  .button {
+	background-color: white; 
+	color: black; 
+	border: 2px solid black;
+  }
+  
+  .button:hover {
+	background-color: black;
+	color: white;
+  }
+  .button {
+	color: black;
+	padding: 12px 28px;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	margin: 10px 40px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 30px;
+  }
+  .button a{
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+  }
+  p {
+	font-size:10px;	
+	font-weight: 700;
+  }
+  .account p{
+	margin: 10px 10px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  .column {
+    float: left;
+  }
+  img{
+    padding-left: 70px;
+    width: 400px;
+  }
+  input[type=submit], select {
+	color: black;
+	padding: 12px 28px;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	margin: 10px 40px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 30px;
+	background-color: white; 
+	color: black; 
+	border: 2px solid black;
+	font-size: 20px; 
+  }
+ 
+  input:hover[type="submit"] 
+		{
+			background-color: black;
+			color: white;
+		}
+ .a{
+			text-decoration: none;
+			color: rgb(255,255,255);
+			font-size: 12px;
+			font-weight: 400;
+			background-color: red;
+			border-radius: 13px;
+			padding:12px 30px;
+			display: inline-block;
+		}
+       button{
+            color: black;
+            padding: 12px 28px;
+            text-align: center;
+            display: inline-block;
+            font-size: 12px;
+            margin: 10px 40px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 30px;
+            background-color: white; 
+            color: black; 
+            border: 2px solid black;
+            font-size: 20px; 
+          }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <link href="{{url_for('static',filename='css/view.css')}}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <img src="{{url_for('static',filename='images/cyber.jpg')}}" height="700px" width="40%"
+            </div>
+            <div class="column">
+            <div class="wrapper">
+                <header>VIEW DETAILS</header>
+            <br>
+        <h3>User Details</h3> 
+            <br>
+            <h4>{{user.name}}</h4>
+            <p><strong>Email: </strong> {{user.email}}. </p>
+            <p><strong>Role: </strong> {{user.role}} </p>
+            <p><strong>Country: </strong> {{user.country}}</p>
+            </div>
+        </div>
+    </body>
