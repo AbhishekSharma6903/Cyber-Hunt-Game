@@ -11,14 +11,14 @@
 [ The game is completly Explained in the Documentation of this Project ! ] 
 
 ### Software Requirements And Specifications :
-  * [ Python ]
-  * [ MySql ]
-  * [ Flask ]
+  * ` Python `
+  * ` MySql `
+  * ` Flask `
 
 Front End :
-  * [ Html ]
-  * [ Css ]
-  * [ JavaScript ]
+  * ` Html `
+  * ` Css `
+  * ` JavaScript `
 
 ## Project Plan ♟💻: 
 - In Python you need to install a Python MySQL connector to interact with a MySQL database. pip installs the connector as a third-party module in the currently active   virtual environment. It’s recommended that you set up an isolated virtual environment for the project along with all the dependencies.
