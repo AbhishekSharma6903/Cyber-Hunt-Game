@@ -37,7 +37,7 @@ Front End :
 
 ## Game Description 🎮 :  
   *  The player have to Successfully submit the Flags to get points, which can be achieved by understanding the threat provided in that Level.
-  *  {say Level 1 : Understanding About Shoulder-Surfing Attack }
+  *  ```say Level 1 : Understanding About Shoulder-Surfing Attack ```
 ![flag](https://user-images.githubusercontent.com/99632495/206871666-834b944e-663a-4c31-996a-5a966b67326e.jpeg )
   *  Hints would be provided to the user depending upon Suitable difficulty level of the task.
 ![image](https://github.com/AbhishekSharma6903/Cyber-Hunt-Game/assets/99632495/ba124afb-ef7e-4aef-8db9-9ce9c96e1d0a)
@@ -48,20 +48,20 @@ Front End :
   * With the Points earned in each Level the Player will be promoted to next level .
 
 ### Team Members:
-1. Abhishek Sharma [ch.en.u4cys21001@ch.students.amrita.edu]
-2. Aditya Vatsa [ch.en.u4cys21003@ch.students.amrita.edu]
-3. Charishma L [ch.en.u4cys21010@ch.students.amrita.edu]
-4. Chinni Krishna Kowsik. P [ch.en.u4cys21011@ch.students.amrita.edu]
-5. Sahasra Reddy. M [ch.en.u4cys21037@ch.students.amrita.edu]
+1. `Abhishek Sharma` [ch.en.u4cys21001@ch.students.amrita.edu]
+2. `Aditya Vatsa `[ch.en.u4cys21003@ch.students.amrita.edu]
+3. `Charishma L` [ch.en.u4cys21010@ch.students.amrita.edu]
+4. `Chinni Krishna Kowsik. P` [ch.en.u4cys21011@ch.students.amrita.edu]
+5. `Sahasra Reddy. M` [ch.en.u4cys21037@ch.students.amrita.edu]
 
 ----------------- THANK YOU --------------------------------------------------------------------------------------------
 
 ### Connect with me :
--Twitter : https://twitter.com/AbhiShek6903
+```Twitter :``` https://twitter.com/AbhiShek6903
 
--Email : abhiabhishek6903@gmail.com
+```Email :``` abhiabhishek6903@gmail.com
 
--Linkedin : https://www.linkedin.com/in/abhishek-sharma-5914bb206
+```Linkedin :``` https://www.linkedin.com/in/abhishek-sharma-5914bb206
 
 ### Happy Hacking :) ...... Abhishek sharma 
 
