@@ -56,7 +56,7 @@ Front End :
 
 ----------------- THANK YOU --------------------------------------------------------------------------------------------
 
-### Connect with me :
+### Connect :
 ```Twitter :``` https://twitter.com/AbhiShek6903
 
 ```Email :``` abhiabhishek6903@gmail.com
